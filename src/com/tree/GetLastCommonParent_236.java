@@ -1,5 +1,5 @@
 package com.tree;
-
+//二叉树的最近公共祖先
 public class GetLastCommonParent_236 {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 		if (root == null) {
