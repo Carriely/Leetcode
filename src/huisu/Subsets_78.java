@@ -1,8 +1,7 @@
-package com.array;
+package huisu;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 //子集
 //思路：回溯

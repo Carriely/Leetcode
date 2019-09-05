@@ -1,4 +1,4 @@
-package com.array;
+package huisu;
 
 import java.util.ArrayList;
 import java.util.Arrays;

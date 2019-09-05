@@ -1,6 +1,5 @@
 package com.list;
 //合并 k 个排序链表
-
 //思路：典型的归并思想，自底向上，依次合并
 
 public class MergeKLists_23 {
