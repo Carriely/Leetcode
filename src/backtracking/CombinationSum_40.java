@@ -1,4 +1,4 @@
-package huisu;
+package backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;

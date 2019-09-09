@@ -1,4 +1,4 @@
-package com.dynamicProgramming;
+package dynamicProgramming;
 
 //不同的二叉搜索树
 //动态规划

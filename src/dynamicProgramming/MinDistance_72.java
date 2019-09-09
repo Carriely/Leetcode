@@ -1,4 +1,4 @@
-package com.dynamicProgramming;
+package dynamicProgramming;
 
 //编辑距离
 //思路：

@@ -1,4 +1,4 @@
-package com.dynamicProgramming;
+package dynamicProgramming;
 
 import com.tree.TreeNode;
 

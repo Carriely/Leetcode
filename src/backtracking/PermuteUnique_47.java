@@ -1,4 +1,4 @@
-package huisu;
+package backtracking;
 //全排列 II
 
 //给定一个可包含重复数字的序列，返回所有不重复的全排列。

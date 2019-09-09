@@ -1,4 +1,4 @@
-package huisu;
+package backtracking;
 //组合求和
 //思路：回溯+剪枝
 //解法：

@@ -1,4 +1,4 @@
-package com.dynamicProgramming;
+package dynamicProgramming;
 //打家劫舍
 //思路：f(k) = 从前 k 个房屋中能抢劫到的最大数额，Ai= 第 i 个房屋的钱数。
 //f(–1) = f(0) = 0

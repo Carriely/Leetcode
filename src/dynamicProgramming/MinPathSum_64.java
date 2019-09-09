@@ -1,4 +1,4 @@
-package com.dynamicProgramming;
+package dynamicProgramming;
 
 //最小路径和
 //注意边界
