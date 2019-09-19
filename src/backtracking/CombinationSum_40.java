@@ -23,8 +23,7 @@ public class CombinationSum_40 {
 
 	// residue 表示剩余，这个值一开始等于 target，基于题目中说明的"所有数字（包括目标数）都是正整数"这个条件
 	// residue 在递归遍历中，只会越来越小
-	private void helper(int[] candidates, int begin, int residue, Stack<Integer> stack,
-			List<List<Integer>> res) {
+	private void helper(int[] candidates, int begin, int residue, Stack<Integer> stack, List<List<Integer>> res) {
 		if (residue == 0) {
 			res.add(new ArrayList<>(stack));
 			return;
@@ -37,7 +36,7 @@ public class CombinationSum_40 {
 			stack.add(candidates[i]);
 			// 【关键】因为元素不可以重复使用，这里递归传递下去的是 i + 1 而不是 i
 			helper(candidates, i + 1, residue - candidates[i], stack, res);
-			stack.pop();//返回到上一级调用即可把当前stack中符合题意的组合清空
+			stack.pop();// 返回到上一级调用即可把当前stack中符合题意的组合清空
 		}
 	}
 }

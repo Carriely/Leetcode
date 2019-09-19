@@ -1,4 +1,4 @@
-package backtracking;
+package dfs;
 //全排列 II
 
 //给定一个可包含重复数字的序列，返回所有不重复的全排列。
@@ -20,6 +20,7 @@ public class PermuteUnique_47 {
 		if (nums.length == 0 || nums == null) {
 			return res;
 		}
+		// 排序
 		Arrays.sort(nums);
 		used = new boolean[nums.length];
 		findPermuteUnique(nums, 0, new Stack<Integer>());
@@ -41,6 +42,7 @@ public class PermuteUnique_47 {
 				used[i] = true;
 				stack.add(nums[i]);
 				findPermuteUnique(nums, depth + 1, stack);
+				// 状态重制
 				used[i] = false;
 				stack.pop();
 			}

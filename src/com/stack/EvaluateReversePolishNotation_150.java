@@ -7,7 +7,7 @@ import java.util.Stack;
 //利用栈来模拟计算：
 //遇到操作数直接压栈，碰到操作符直接取栈顶的2个操作数进行计算（注意第一次取出来的是右操作数），然后再把计算结果压栈，如此循环下去。
 //最后栈中剩下的唯一一个元素便是整个表达式的值
-public class EvaluateReversePolishNotation {
+public class EvaluateReversePolishNotation_150 {
 	public int evalRPN(String[] tokens) {
 		Stack<Integer> stack = new Stack<Integer>();
 		for (int i = 0; i < tokens.length; i++) {
